@@ -202,6 +202,10 @@ TEXT="Installasi Script V2.4 By BADBUD TUNNELING
 <code>Location   :</code> <code>$CITY</code>
 <code>Exp Sc.    :</code> <code>$Exp</code>
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<i>Automatic Notifications From Github</i>
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/+6283877826797"}]]}' 
+
+curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 clear
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install SSH / WS               $NC"
@@ -266,7 +270,7 @@ gg="AM"
 fi
 curl -sS ifconfig.me > /etc/myipvps
 echo " "
-echo "====================-[ SANZ TUNNELING ]-===================="
+echo "====================-[ BADBUD TUNNELING ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -307,7 +311,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "================-[ Script By SANZ TUNNELING ]-=============="
+echo "================-[ Script By BADBUD TUNNELING ]-=============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
