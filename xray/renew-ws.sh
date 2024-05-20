@@ -58,7 +58,7 @@ echo "==============================="
 echo "Username  : $user"
 echo "Expired   : $exp4"
 echo "==============================="
-echo "Script Mod By SANZ TUNNELING"
+echo "Script Mod By BADBUD TUNNELING"
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
 
